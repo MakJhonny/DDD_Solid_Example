@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\Documents\\Arqui_de_software\\Solid\\Solid.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\Documents\\Arqui_de_software\\Solid_DDD\\Solid.csproj",
       "projectName": "Solid",
-      "projectPath": "C:\\Users\\Asus\\Documents\\Arqui_de_software\\Solid\\Solid.csproj",
+      "projectPath": "C:\\Users\\Asus\\Documents\\Arqui_de_software\\Solid_DDD\\Solid.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\Documents\\Arqui_de_software\\Solid\\obj\\",
+      "outputPath": "C:\\Users\\Asus\\Documents\\Arqui_de_software\\Solid_DDD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
