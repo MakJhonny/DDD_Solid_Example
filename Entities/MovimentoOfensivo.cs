@@ -8,13 +8,13 @@ namespace Solid.Entities
     {
         private int _cantidadPasos;
         private bool _finalizacionConRemate;
-        public MovimientoOfensivo(int ID, string nombre, List<Accion> acciones)
+        public MovimientoOfensivo(int ID, string nombre, List<AccionConBalon> acciones)
             :base(ID,nombre, acciones)
         {
             _cantidadPasos = 0;
             _finalizacionConRemate = false;
         }
-        public override void agregarAccion(Accion accion)
+        public override void agregarAccion(AccionConBalon accion)
         {
             _acciones.Add(accion);
             _cantidadPasos++;
@@ -24,7 +24,7 @@ namespace Solid.Entities
             Console.WriteLine($"El movimiento: {_nombre} consiste en:");
             foreach (var accion in _acciones)
             {
-                accion.describirSecuencia();
+                accion.describirSecuenciaConBalon();
             }
             string mensajeFinal = (_finalizacionConRemate)?" con remate a porteria.":".";
             Console.WriteLine($"El movimiento termina{mensajeFinal}");

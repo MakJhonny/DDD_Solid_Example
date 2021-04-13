@@ -4,5 +4,4 @@
 
 # Diagrama de clases
 
-<img src="https://github.com/MakJhonny/DDD_Solid_Example/blob/main/Imagenes/DiagramaDeClases.PNG" width="200" height="200">
-
+<img src="https://github.com/MakJhonny/DDD_Solid_Example/blob/main/Imagenes/DiagramaDeClases.PNG" width="400" height="400">

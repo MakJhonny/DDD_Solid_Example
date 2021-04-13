@@ -3,13 +3,8 @@ using System.Collections.Generic;
 
 namespace Solid.ValueObjects
 {
-    abstract class Accion
+    public interface Accion
     {
-        protected List<Posicion> _posicionesActuantes;
-        public Accion(List<Posicion> posicionesActuales){
-            _posicionesActuantes = posicionesActuales;
-        }
-        public abstract void describirSecuencia();
-
+        void describirProtagonistas();
     }
 }

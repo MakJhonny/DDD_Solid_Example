@@ -8,13 +8,13 @@ namespace Solid.Entities
     {
         protected int _ID;
         protected string _nombre;
-        protected List<Accion> _acciones;
-        public MovimientoTactico(int ID, string nombre, List<Accion> acciones){
+        protected List<AccionConBalon> _acciones;
+        public MovimientoTactico(int ID, string nombre, List<AccionConBalon> acciones){
             _ID = ID;
             _nombre = nombre;
             _acciones = acciones;
         }
-        public abstract void agregarAccion(Accion accion);
+        public abstract void agregarAccion(AccionConBalon accion);
         public abstract void describir();
     }
 }

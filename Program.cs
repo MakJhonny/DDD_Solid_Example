@@ -10,25 +10,25 @@ namespace Solid
         static void Main(string[] args)
         {
             //Describimos las acciones
-            Accion salidaDeArco = new AccionConBalon(
+            AccionConBalon salidaDeArco = new Pase(
                 new List<Posicion>{Posicion.Portero,Posicion.DefensaLateral}, 
                 new int[2]{0,1}
             );
-            Accion paredConPivote = new AccionConBalon(
+            AccionConBalon paredConPivote = new Pase(
                 new List<Posicion>{Posicion.DefensaLateral,Posicion.Mediocapista}, 
                 new int[3]{0,1,0}
             );
-            Accion corridaPorBanda = new AccionConBalon(
+            AccionConBalon corridaPorBanda = new Pase(
                 new List<Posicion>{Posicion.DefensaLateral}, 
                 new int[1]{0}
             );
-            Accion centrada = new AccionConBalon(
+            AccionConBalon centrada = new Pase(
                 new List<Posicion>{Posicion.DefensaLateral, Posicion.DelanteroCentral},
                 new int[2]{1,0}
             );
 
             //Enlistamos las acciones
-            var acciones = new List<Accion>{salidaDeArco, paredConPivote, corridaPorBanda, centrada};
+            var acciones = new List<AccionConBalon>{salidaDeArco, paredConPivote, corridaPorBanda, centrada};
             
             //Creamos el movimiento tactico
             var atacarBanda = new MovimientoOfensivo(1,"Ataque por la Banda", acciones);
