@@ -1,7 +1,7 @@
-# Tematica: Futbol
+### Tematica: Futbol
 
-# Dominio: La alineacion de un equipo relacionado con sus movimientos tacticos
+### Dominio: La alineacion de un equipo relacionado con sus movimientos tacticos
 
-# Diagrama de clases
+### Diagrama de clases
 
-<img src="https://github.com/MakJhonny/DDD_Solid_Example/blob/main/Imagenes/DiagramaDeClases.PNG" width="400" height="400">
+<img src="https://github.com/MakJhonny/DDD_Solid_Example/blob/main/Imagenes/DiagramaDeClases.png" width="500" height="500">
